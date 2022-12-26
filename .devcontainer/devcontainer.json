@@ -7,16 +7,17 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {}
-		// "ghcr.io/rocker-org/devcontainer-features/miniforge:0": {}
+		, "ghcr.io/rocker-org/devcontainer-features/miniforge:0": {}
 	}
 
 	, "extensions": [
 		"ms-python.python"
+		, "atlassian.atlascode"
 	  ]
 	
 	,"settings": {
-		"python.pythonPath":  "/usr/local/bin/python"
-				// "/opt/conda/bin/python"
+		"python.pythonPath":  "/opt/conda/bin/python"
+			// # TODO: [ES-197]  "/usr/local/bin/python"1
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
