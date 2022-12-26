@@ -16,8 +16,8 @@
 	  ]
 	
 	,"settings": {
-		"python.pythonPath":  "/usr/local/bin/python"
-				// "/opt/conda/bin/python"
+		"python.pythonPath":  "/opt/conda/bin/python"
+			// # TODO: [ES-197]  "/usr/local/bin/python"1
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
