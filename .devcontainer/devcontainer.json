@@ -12,6 +12,7 @@
 
 	, "extensions": [
 		"ms-python.python"
+		, "atlassian.atlascode"
 	  ]
 	
 	,"settings": {
